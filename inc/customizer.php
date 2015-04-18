@@ -435,24 +435,10 @@ function toivo_lite_color_backgrounds_css() {
 	$header_bg_color = get_theme_mod( 'header_background_color', '#3b5667' );
 	$header_bg_color_opacity = absint( get_theme_mod( 'header_background_color_opacity', 65 ) );
 	$header_bg_color_opacity = $header_bg_color_opacity / 100;
-	
-	/* Get subsidiary sidebar colors. */
-	$subsidiary_sidebar_bg_color = get_theme_mod( 'subsidiary_sidebar_bg_color', '#ffffff' );
-	$subsidiary_sidebar_bg_color_opacity = absint( get_theme_mod( 'subsidiary_sidebar_bg_color_opacity', 95 ) );
-	$subsidiary_sidebar_bg_color_opacity = $subsidiary_sidebar_bg_color_opacity / 100;
 
 	/* Convert hex color to rgba. */
 	$header_bg_color_rgb = toivo_lite_hex2rgb( $header_bg_color );
 	$subsidiary_sidebar_bg_color_rgb = toivo_lite_hex2rgb( $subsidiary_sidebar_bg_color );
-	
-	/* Subsidiary sidebar image. */
-	$subsidiary_sidebar_bg = esc_url( get_theme_mod( 'subsidiary_sidebar_bg' ) );
-	
-	/* When to show subsidiary sidebar image. */
-	$min_width = absint( apply_filters( 'toivo_subsidiary_sidebar_bg_show', 1 ) );
-	
-	/* Background arguments. */
-	$background_arguments = esc_attr( apply_filters( 'toivo_lite_subsidiary_sidebar_bg_arguments', 'no-repeat 50% 50%' ) );
 	
 	/* Header bg styles. */	
 	if ( '#3b5667' !== $header_bg_color || 90 !== $header_bg_color_opacity ) {
@@ -463,25 +449,6 @@ function toivo_lite_color_backgrounds_css() {
 				background-color: rgba( {$header_bg_color_rgb['red'] }, {$header_bg_color_rgb['green']}, {$header_bg_color_rgb['blue']}, {$header_bg_color_opacity});
 			}";
 				
-	}
-	
-	/* Subsidiary bg styles. */	
-	if ( is_active_sidebar( 'subsidiary' ) && ! empty( $subsidiary_sidebar_bg ) ) {
-
-		$bg_color_css .= "
-		@media screen and (min-width: {$min_width}px) {
-				
-			.sidebar-subsidiary {
-					background: url({$subsidiary_sidebar_bg}) {$background_arguments}; background-size: cover;
-				}
-					
-		}
-		
-		.sidebar-subsidiary,
-		.sidebar-subsidiary > .wrap::before {
-			background-color: rgba( {$subsidiary_sidebar_bg_color_rgb['red'] }, {$subsidiary_sidebar_bg_color_rgb['green']}, {$subsidiary_sidebar_bg_color_rgb['blue']}, {$subsidiary_sidebar_bg_color_opacity});
-		}";	
-			
 	}
 		
 	wp_add_inline_style( 'toivo-lite-style', $bg_color_css );
@@ -582,7 +549,7 @@ function toivo_lite_callout_output( $placement ) {
 	$output = '';
 
 	/* Output callout link and text on page templates. */
-	if ( get_theme_mod( 'callout_title_' . $placement ) || get_theme_mod( 'callout_url_' . $placement, '#' ) || get_theme_mod( 'callout_url_text_' . $placement, esc_html__( 'Callout link', 'toivo-lite' ) ) || get_theme_mod( 'callout_text_' . $placement, esc_html__( 'Callout text can be changed in the Customizer', 'toivo-lite' ) ) ) {
+	if ( get_theme_mod( 'callout_title_' . $placement ) || get_theme_mod( 'callout_url_' . $placement ) || get_theme_mod( 'callout_url_text_' . $placement ) || get_theme_mod( 'callout_text_' . $placement ) ) {
 		
 		/* Start output. */
 		$output .= '<div class="toivo-callout toivo-callout-' . $placement . '"><div class="entry-inner">';
@@ -593,13 +560,13 @@ function toivo_lite_callout_output( $placement ) {
 		}
 		
 		/* Callout text. */
-		if( get_theme_mod( 'callout_text_' . $placement, esc_html__( 'Callout text can be changed in the Customizer', 'toivo-lite' ) ) ) {
-			$output .= '<div class="toivo-callout-text">' . apply_filters( 'toivo_the_content', esc_html( get_theme_mod( 'callout_text_' . $placement, esc_html__( 'Callout text can be changed in the Customizer', 'toivo-lite' ) ) ) ) . '</div>';
+		if( get_theme_mod( 'callout_text_' . $placement ) ) {
+			$output .= '<div class="toivo-callout-text">' . apply_filters( 'toivo_the_content', esc_html( get_theme_mod( 'callout_text_' . $placement ) ) ) . '</div>';
 		}
 		
 		/* Callout link. */
-		if( get_theme_mod( 'callout_url_' . $placement, '#' ) && get_theme_mod( 'callout_url_text_' . $placement, esc_html__( 'Callout link', 'toivo-lite' ) ) ) {
-			$output .= '<div class="toivo-callout-link"><a class="toivo-button toivo-callout-link-anchor" href="' . esc_url( get_theme_mod( 'callout_url_' . $placement, '#' ) ) . '">' . esc_html( get_theme_mod( 'callout_url_text_' . $placement, esc_html__( 'Callout link', 'toivo-lite' ) ) ) . '</a></div>';
+		if( get_theme_mod( 'callout_url_' . $placement ) && get_theme_mod( 'callout_url_text_' . $placement ) ) {
+			$output .= '<div class="toivo-callout-link"><a class="toivo-button toivo-callout-link-anchor" href="' . esc_url( get_theme_mod( 'callout_url_' . $placement ) ) . '">' . esc_html( get_theme_mod( 'callout_url_text_' . $placement ) ) . '</a></div>';
 		}
 		
 		/* End output. */
