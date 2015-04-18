@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Toivo 1.0.0\n"
 "Report-Msgid-Bugs-To: https://foxland.fi/contact/\n"
-"POT-Creation-Date: 2015-04-18 09:18:09+00:00\n"
-"PO-Revision-Date: 2015-04-18 12:40+0200\n"
+"POT-Creation-Date: 2015-04-18 11:20:32+00:00\n"
+"PO-Revision-Date: 2015-04-18 15:04+0200\n"
 "Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
 "Language-Team: \n"
 "Language: fi\n"
@@ -370,14 +370,6 @@ msgstr ""
 "<a href=\"%s\" target=\"_blank\">Päivitä Toivo (Pro) -versioon</a> jos "
 "haluat piilottaa tai korvata alapalkin tekstin."
 
-#: inc/customizer.php:585 inc/customizer.php:601 inc/customizer.php:602
-msgid "Callout link"
-msgstr "Callout-linkki"
-
-#: inc/customizer.php:585 inc/customizer.php:596 inc/customizer.php:597
-msgid "Callout text can be changed in the Customizer"
-msgstr "Callout-tekstiä voi muuttaa teeman mukauttimessa"
-
 #: inc/template-tags.php:21
 msgid "Comment navigation"
 msgstr "Kommenttien selaus"
@@ -405,14 +397,6 @@ msgstr "Somevalikko"
 #: menu-top.php:11 menu-top.php:12
 msgid "Top Menu"
 msgstr "Ylävalikko"
-
-#: sidebar-front-page.php:31
-msgid "Front Page Widget I"
-msgstr "Etusivun vimpain II"
-
-#: sidebar-front-page.php:33
-msgid "Front Page Widget II"
-msgstr "Etusivun vimpain I"
 
 #: sidebar-subsidiary.php:52
 msgid "Search"
@@ -444,17 +428,17 @@ msgstr "https://foxland.fi/downloads/toivo/"
 
 #. Description of the plugin/theme
 msgid ""
-"Toivo Lite is perfect fit for business, personal, portfolio or blog sites. "
-"It has beautiful Front Page template where you can show your important "
-"content, portfolio, testimonials and Callout links. Toivo is an accessible, "
-"translation-ready theme which supports plenty of features like Site Logo and "
-"Schema.org microdata."
+"Toivo Lite is perfect fit for business, personal or blog sites. It has "
+"beautiful Front Page template where you can show your important content, "
+"testimonials and Callout links. Toivo Lite is an accessible, translation-"
+"ready theme which supports plenty of features like Right to Left languages "
+"and Schema.org microdata."
 msgstr ""
-"Toivo \"Lite\" on täydellinen teema sivuillesi oli se sitten yrityssivu, "
-"henkilökohtainen blogi tai portfolio. Teemassa on upea Etusivu, jossa voit "
-"näyttää tärkeimmän sisällön, portfolion, suositukset ja Callout-linkkejä. "
-"Toivo on saanut virallisen saavutettavuus (Accessibility Ready) merkinnän ja "
-"siinä on paljon ominaisuuksia kuten logon lataaminen ja tuki Schema.org "
+"Toivo \"Lite\" on täydellinen teema sivuillesi oli se sitten yrityssivu tai "
+"henkilökohtainen blogi. Teemassa on upea Etusivu, jossa voit näyttää "
+"tärkeimmän sisällön, suositukset ja Callout-linkkejä. Teema on saanut "
+"virallisen saavutettavuus (Accessibility Ready) merkinnän ja siinä on paljon "
+"ominaisuuksia kuten tuki oikealta vasemmalle -kielille ja tuki Schema.org "
 "merkkauskielelle."
 
 #. Author of the plugin/theme
@@ -625,7 +609,7 @@ msgctxt "taxonomy terms separator"
 msgid ", "
 msgstr ", "
 
-#: sidebar-front-page.php:10
+#: sidebar-front-page.php:12
 msgctxt "Sidebar aria label"
 msgid "Front Page Sidebar"
 msgstr "Etusivun sivupalkki"
@@ -639,3 +623,15 @@ msgstr "Sivupalkki"
 msgctxt "Sidebar aria label"
 msgid "Subsidiary Sidebar"
 msgstr "Alapalkin sivupalkki"
+
+#~ msgid "Callout link"
+#~ msgstr "Callout-linkki"
+
+#~ msgid "Callout text can be changed in the Customizer"
+#~ msgstr "Callout-tekstiä voi muuttaa teeman mukauttimessa"
+
+#~ msgid "Front Page Widget I"
+#~ msgstr "Etusivun vimpain II"
+
+#~ msgid "Front Page Widget II"
+#~ msgstr "Etusivun vimpain I"
