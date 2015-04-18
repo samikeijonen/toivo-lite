@@ -27,6 +27,11 @@ All other resources and theme elements are licensed under the [GNU GPL](http://w
 
 ## Changelog
 
-### Version 1.0.0
+### Version 1.0.1 - April 18, 2015
+
+* Remove default from Callout section and Front Page Widget area.
+* Update language files.
+
+### Version 1.0.0 - April 18, 2015
 
 * Everything's new!
