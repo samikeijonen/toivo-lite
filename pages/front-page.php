@@ -57,6 +57,9 @@ get_header(); ?>
 		
 	<?php do_action( 'toivo_after_front_page_sidebar' ); // Hook after sidebar. ?>
 			
-	<?php get_template_part( 'area-featured' ); // Add featured area. ?>
+	<?php
+		get_template_part( 'area-testimonial' ); // Add testimonial area.
+		get_template_part( 'area-featured' );    // Add featured area.
+	?>
 	
 <?php get_footer(); ?>
