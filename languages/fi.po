@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Toivo 1.0.0\n"
 "Report-Msgid-Bugs-To: https://foxland.fi/contact/\n"
-"POT-Creation-Date: 2015-04-18 11:20:32+00:00\n"
-"PO-Revision-Date: 2015-04-18 15:04+0200\n"
+"POT-Creation-Date: 2015-04-24 14:38:46+00:00\n"
+"PO-Revision-Date: 2015-04-24 17:41+0200\n"
 "Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
 "Language-Team: \n"
 "Language: fi\n"
@@ -83,7 +83,7 @@ msgstr "Avainsanat %s"
 #: content-audio.php:33 content-child-pages.php:33
 #: content-jetpack-portfolio.php:33 content-jetpack-testimonial.php:23
 #: content-jetpack-testimonial.php:68 content-link.php:42 content-page.php:29
-#: content-video.php:33 content.php:33 functions.php:273
+#: content-video.php:33 content.php:33 functions.php:263
 msgid "Read more %s"
 msgstr "Lue lisää %s"
 
@@ -202,35 +202,35 @@ msgstr "Minuutti %s"
 msgid "Week %s"
 msgstr "Viikko %s"
 
-#: inc/customizer.php:21
+#: inc/customizer.php:24
 msgid "Theme Settings"
 msgstr "Teeman asetukset"
 
-#: inc/customizer.php:32
+#: inc/customizer.php:35
 msgid "Layouts"
 msgstr "Ulkoasu"
 
-#: inc/customizer.php:48
+#: inc/customizer.php:51
 msgid "1 Column"
 msgstr "1 sarake"
 
-#: inc/customizer.php:49
+#: inc/customizer.php:52
 msgid "2 Columns: Content / Sidebar"
 msgstr "Kaksi saraketta: sisältö / sivupalkki"
 
-#: inc/customizer.php:50
+#: inc/customizer.php:53
 msgid "2 Columns: Sidebar / Content"
 msgstr "Kaksi saraketta: sivupalkki / sisältö"
 
-#: inc/customizer.php:57
+#: inc/customizer.php:60
 msgid "Global Layout"
 msgstr "Globaali ulkoasu"
 
-#: inc/customizer.php:71
+#: inc/customizer.php:74
 msgid "Front Page Settings"
 msgstr "Etusivun asetukset"
 
-#: inc/customizer.php:72
+#: inc/customizer.php:75
 msgid ""
 "Callout at the top. <a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</"
 "a> for adding similar Callout section at the bottom."
@@ -238,36 +238,36 @@ msgstr ""
 "Callout-osio ylhäällä. <a href=\"%s\" target=\"_blank\">Päivitä Toivo (Pro) -"
 "versioon</a> jos haluat samanlaisen Callout-osion sivun alareunaan."
 
-#: inc/customizer.php:112
+#: inc/customizer.php:115
 msgid "%s Callout title"
 msgstr "Callout-otsikko %s"
 
-#: inc/customizer.php:132
+#: inc/customizer.php:135
 msgid "%s Callout text"
 msgstr "Etusivun \"Callout\" teksti %s"
 
-#: inc/customizer.php:152
+#: inc/customizer.php:155
 msgid "%s Callout URL"
 msgstr "Etusivun \"Callout\" URL %s"
 
-#: inc/customizer.php:172
+#: inc/customizer.php:175
 msgid "%s Callout URL text"
 msgstr "Etusivun \"Callout\" URL:n teksti %s"
 
-#: inc/customizer.php:198
+#: inc/customizer.php:201
 msgid "Hide testimonials"
 msgstr "Piilota suositukset"
 
-#: inc/customizer.php:199
+#: inc/customizer.php:202
 msgid ""
 "Check this if you want to hide testimonials from the Front Page Template."
 msgstr "Valitse tämä, jos haluta piilottaa suositukset Etusivu-sivupohjassa."
 
-#: inc/customizer.php:218
+#: inc/customizer.php:221
 msgid "Testimonials after featured area"
 msgstr "Suositukset \"Featured\"-alueen jälkeen"
 
-#: inc/customizer.php:219
+#: inc/customizer.php:222
 msgid ""
 "Check this if you want to move testimonials after Featured area in the Front "
 "Page Template."
@@ -278,19 +278,19 @@ msgstr ""
 msgid "Child Pages"
 msgstr "Alasivut"
 
-#: inc/customizer.php:239
+#: inc/customizer.php:242
 msgid "Blog Posts"
 msgstr "Blogikirjoitukset"
 
-#: inc/customizer.php:240
+#: inc/customizer.php:243
 msgid "Portfolios"
 msgstr "Portfoliot"
 
-#: inc/customizer.php:247
+#: inc/customizer.php:250
 msgid "Featured Content"
 msgstr "Etusivun \"featured\"-sisältö"
 
-#: inc/customizer.php:248
+#: inc/customizer.php:251
 msgid ""
 "Select do you want to feature Child Pages, Blog Posts or Portfolios in Front "
 "Page."
@@ -298,11 +298,11 @@ msgstr ""
 "Valitse haluatko näyttää etusivulla alasivut, blogikirjoitukset vai "
 "portfoliot."
 
-#: inc/customizer.php:268
+#: inc/customizer.php:271
 msgid "Callout Image"
 msgstr "Callout-kuva"
 
-#: inc/customizer.php:269
+#: inc/customizer.php:272
 msgid ""
 "<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for adding "
 "Callout Image."
@@ -310,27 +310,27 @@ msgstr ""
 "<a href=\"%s\" target=\"_blank\">Päivitä Toivo (Pro) -versioon</a> jos "
 "haluat lisätä Callout-kuvan."
 
-#: inc/customizer.php:282
+#: inc/customizer.php:285
 msgid "Background Settings"
 msgstr "Taustakuvan asetukset"
 
-#: inc/customizer.php:301
+#: inc/customizer.php:304
 msgid "Header Background Color"
 msgstr "Yläpalkin taustaväri"
 
-#: inc/customizer.php:322
+#: inc/customizer.php:325
 msgid "Header Color Opacity."
 msgstr "Otsakkeen värin läpinäkyvyys."
 
-#: inc/customizer.php:323
+#: inc/customizer.php:326
 msgid "Set Header Color opacity."
 msgstr "Aseta otsakkeen värin läpinäkyvyys."
 
-#: inc/customizer.php:345
+#: inc/customizer.php:350
 msgid "Subsidiary Sidebar Background"
 msgstr "Alapalkin tausta"
 
-#: inc/customizer.php:346
+#: inc/customizer.php:351
 msgid ""
 "<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for adding "
 "Subsidiary Sidebar Background Image and Color."
@@ -338,15 +338,15 @@ msgstr ""
 "<a href=\"%s\" target=\"_blank\">Päivitä Toivo (Pro) -versioon</a> jos "
 "haluat lisätä alapalkin vimpainalueeseen taustakuvan ja värin."
 
-#: inc/customizer.php:361
+#: inc/customizer.php:367
 msgid "Portfolio Settings"
 msgstr "Portfolio asetukset"
 
-#: inc/customizer.php:380
+#: inc/customizer.php:388
 msgid "Portfolio Page Title"
 msgstr "Portfolio-sivun otsikko"
 
-#: inc/customizer.php:381
+#: inc/customizer.php:389
 msgid ""
 "<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for changing "
 "Portfolio title and description."
@@ -354,21 +354,33 @@ msgstr ""
 "<a href=\"%s\" target=\"_blank\">Päivitä Toivo (Pro) -versioon</a> jos "
 "haluat muuttaa Portfolion otsikon ja kuvauksen."
 
-#: inc/customizer.php:396
+#: inc/customizer.php:404
 msgid "Footer Settings"
 msgstr "Alapalkin asetukset"
 
-#: inc/customizer.php:415
-msgid "Footer section"
-msgstr "Alapalkki"
+#: inc/customizer.php:425
+msgid "Enter footer text"
+msgstr "Kirjoita alapalkin teksti"
 
-#: inc/customizer.php:416
+#: inc/customizer.php:426
 msgid ""
 "<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for hiding or "
 "changing Footer text."
 msgstr ""
 "<a href=\"%s\" target=\"_blank\">Päivitä Toivo (Pro) -versioon</a> jos "
 "haluat piilottaa tai korvata alapalkin tekstin."
+
+#: inc/meta-boxes.php:22
+msgid "Header Callout text"
+msgstr "Otsakkeen \"Callout\" -teksti"
+
+#: inc/meta-boxes.php:42
+msgid ""
+"Want to replace header text with Callout text and description in singular "
+"views? <a href=\"%s\">Upgrade to Toivo (Pro)</a>."
+msgstr ""
+"Haluatko korvata otsakkeen tekstin omalla tekstille yksittäisillä sivuilla? "
+"<a href=\"%s\">Päivitä Toivo (Pro) versioon</a>."
 
 #: inc/template-tags.php:21
 msgid "Comment navigation"
@@ -535,7 +547,7 @@ msgctxt "Raleway font: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:294
+#: functions.php:284
 msgctxt "dash before menu item description"
 msgid "&ndash;"
 msgstr "&ndash;"
@@ -583,12 +595,12 @@ msgctxt "weekly archives date format"
 msgid "W"
 msgstr "W"
 
-#: inc/customizer.php:95
+#: inc/customizer.php:98
 msgctxt "position of callout text"
 msgid "Top"
 msgstr "ylhäällä"
 
-#: inc/customizer.php:97
+#: inc/customizer.php:100
 msgctxt "position of callout text"
 msgid "Bottom"
 msgstr "alhaalla"
@@ -623,15 +635,3 @@ msgstr "Sivupalkki"
 msgctxt "Sidebar aria label"
 msgid "Subsidiary Sidebar"
 msgstr "Alapalkin sivupalkki"
-
-#~ msgid "Callout link"
-#~ msgstr "Callout-linkki"
-
-#~ msgid "Callout text can be changed in the Customizer"
-#~ msgstr "Callout-tekstiä voi muuttaa teeman mukauttimessa"
-
-#~ msgid "Front Page Widget I"
-#~ msgstr "Etusivun vimpain II"
-
-#~ msgid "Front Page Widget II"
-#~ msgstr "Etusivun vimpain I"

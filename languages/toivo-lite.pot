@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Toivo Lite 1.0.1\n"
 "Report-Msgid-Bugs-To: https://foxland.fi/contact/\n"
-"POT-Creation-Date: 2015-04-18 11:20:32+00:00\n"
+"POT-Creation-Date: 2015-04-24 14:38:46+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -78,7 +78,7 @@ msgstr ""
 #: content-audio.php:33 content-child-pages.php:33
 #: content-jetpack-portfolio.php:33 content-jetpack-testimonial.php:23
 #: content-jetpack-testimonial.php:68 content-link.php:42 content-page.php:29
-#: content-video.php:33 content.php:33 functions.php:273
+#: content-video.php:33 content.php:33 functions.php:263
 #. translators: %s: Name of current post
 #. Translators: The %s is the post title shown to screen readers.
 msgid "Read more %s"
@@ -191,69 +191,69 @@ msgstr ""
 msgid "Week %s"
 msgstr ""
 
-#: inc/customizer.php:21
+#: inc/customizer.php:24
 msgid "Theme Settings"
 msgstr ""
 
-#: inc/customizer.php:32
+#: inc/customizer.php:35
 msgid "Layouts"
 msgstr ""
 
-#: inc/customizer.php:48
+#: inc/customizer.php:51
 msgid "1 Column"
 msgstr ""
 
-#: inc/customizer.php:49
+#: inc/customizer.php:52
 msgid "2 Columns: Content / Sidebar"
 msgstr ""
 
-#: inc/customizer.php:50
+#: inc/customizer.php:53
 msgid "2 Columns: Sidebar / Content"
 msgstr ""
 
-#: inc/customizer.php:57
+#: inc/customizer.php:60
 msgid "Global Layout"
 msgstr ""
 
-#: inc/customizer.php:71
+#: inc/customizer.php:74
 msgid "Front Page Settings"
 msgstr ""
 
-#: inc/customizer.php:72
+#: inc/customizer.php:75
 msgid ""
 "Callout at the top. <a href=\"%s\" target=\"_blank\">Upgrade to Toivo "
 "(Pro)</a> for adding similar Callout section at the bottom."
 msgstr ""
 
-#: inc/customizer.php:112
+#: inc/customizer.php:115
 msgid "%s Callout title"
 msgstr ""
 
-#: inc/customizer.php:132
+#: inc/customizer.php:135
 msgid "%s Callout text"
 msgstr ""
 
-#: inc/customizer.php:152
+#: inc/customizer.php:155
 msgid "%s Callout URL"
 msgstr ""
 
-#: inc/customizer.php:172
+#: inc/customizer.php:175
 msgid "%s Callout URL text"
 msgstr ""
 
-#: inc/customizer.php:198
+#: inc/customizer.php:201
 msgid "Hide testimonials"
 msgstr ""
 
-#: inc/customizer.php:199
+#: inc/customizer.php:202
 msgid "Check this if you want to hide testimonials from the Front Page Template."
 msgstr ""
 
-#: inc/customizer.php:218
+#: inc/customizer.php:221
 msgid "Testimonials after featured area"
 msgstr ""
 
-#: inc/customizer.php:219
+#: inc/customizer.php:222
 msgid ""
 "Check this if you want to move testimonials after Featured area in the "
 "Front Page Template."
@@ -263,86 +263,96 @@ msgstr ""
 msgid "Child Pages"
 msgstr ""
 
-#: inc/customizer.php:239
+#: inc/customizer.php:242
 msgid "Blog Posts"
 msgstr ""
 
-#: inc/customizer.php:240
+#: inc/customizer.php:243
 msgid "Portfolios"
 msgstr ""
 
-#: inc/customizer.php:247
+#: inc/customizer.php:250
 msgid "Featured Content"
 msgstr ""
 
-#: inc/customizer.php:248
+#: inc/customizer.php:251
 msgid ""
 "Select do you want to feature Child Pages, Blog Posts or Portfolios in "
 "Front Page."
 msgstr ""
 
-#: inc/customizer.php:268
+#: inc/customizer.php:271
 msgid "Callout Image"
 msgstr ""
 
-#: inc/customizer.php:269
+#: inc/customizer.php:272
 msgid ""
 "<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for adding "
 "Callout Image."
 msgstr ""
 
-#: inc/customizer.php:282
+#: inc/customizer.php:285
 msgid "Background Settings"
 msgstr ""
 
-#: inc/customizer.php:301
+#: inc/customizer.php:304
 msgid "Header Background Color"
 msgstr ""
 
-#: inc/customizer.php:322
+#: inc/customizer.php:325
 msgid "Header Color Opacity."
 msgstr ""
 
-#: inc/customizer.php:323
+#: inc/customizer.php:326
 msgid "Set Header Color opacity."
 msgstr ""
 
-#: inc/customizer.php:345
+#: inc/customizer.php:350
 msgid "Subsidiary Sidebar Background"
 msgstr ""
 
-#: inc/customizer.php:346
+#: inc/customizer.php:351
 msgid ""
 "<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for adding "
 "Subsidiary Sidebar Background Image and Color."
 msgstr ""
 
-#: inc/customizer.php:361
+#: inc/customizer.php:367
 msgid "Portfolio Settings"
 msgstr ""
 
-#: inc/customizer.php:380
+#: inc/customizer.php:388
 msgid "Portfolio Page Title"
 msgstr ""
 
-#: inc/customizer.php:381
+#: inc/customizer.php:389
 msgid ""
 "<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for changing "
 "Portfolio title and description."
 msgstr ""
 
-#: inc/customizer.php:396
+#: inc/customizer.php:404
 msgid "Footer Settings"
 msgstr ""
 
-#: inc/customizer.php:415
-msgid "Footer section"
+#: inc/customizer.php:425
+msgid "Enter footer text"
 msgstr ""
 
-#: inc/customizer.php:416
+#: inc/customizer.php:426
 msgid ""
 "<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for hiding or "
 "changing Footer text."
+msgstr ""
+
+#: inc/meta-boxes.php:22
+msgid "Header Callout text"
+msgstr ""
+
+#: inc/meta-boxes.php:42
+msgid ""
+"Want to replace header text with Callout text and description in singular "
+"views? <a href=\"%s\">Upgrade to Toivo (Pro)</a>."
 msgstr ""
 
 #: inc/template-tags.php:21
@@ -504,7 +514,7 @@ msgctxt "Raleway font: on or off"
 msgid "on"
 msgstr ""
 
-#: functions.php:294
+#: functions.php:284
 msgctxt "dash before menu item description"
 msgid "&ndash;"
 msgstr ""
@@ -552,12 +562,12 @@ msgctxt "weekly archives date format"
 msgid "W"
 msgstr ""
 
-#: inc/customizer.php:95
+#: inc/customizer.php:98
 msgctxt "position of callout text"
 msgid "Top"
 msgstr ""
 
-#: inc/customizer.php:97
+#: inc/customizer.php:100
 msgctxt "position of callout text"
 msgid "Bottom"
 msgstr ""
