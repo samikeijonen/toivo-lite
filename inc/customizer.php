@@ -11,6 +11,9 @@
  * @since 1.0.0
  */
 function toivo_lite_customize_register( $wp_customize ) {
+	
+	/* Load custom class for the Customizer. */
+	require_once( get_template_directory() . '/inc/classes/customize-info-text.php' );
 
 	/* === Theme panel === */
 
@@ -340,15 +343,18 @@ function toivo_lite_customize_register( $wp_customize ) {
 	
 	/* Add the Callout image link control. */
 	$wp_customize->add_control(
-		'callout_image',
-		array(
-			'label'       => esc_html__( 'Subsidiary Sidebar Background', 'toivo-lite' ),
-			'description' => sprintf( __( '<a href="%s" target="_blank">Upgrade to Toivo (Pro)</a> for adding Subsidiary Sidebar Background Image and Color.', 'toivo-lite' ), esc_url( toivo_lite_get_upgrade_link() ) ),
-			'section'     => 'background',
-			'priority'    => 60,
-			'type'        => 'text'
-		)
-	);
+		new Toivo_Lite_Customize_Control_Info_Text(
+			$wp_customize,
+			'callout_image',
+				array(
+					'label'       => esc_html__( 'Subsidiary Sidebar Background', 'toivo-lite' ),
+					'description' => sprintf( __( '<a href="%s" target="_blank">Upgrade to Toivo (Pro)</a> for adding Subsidiary Sidebar Background Image and Color.', 'toivo-lite' ), esc_url( toivo_lite_get_upgrade_link() ) ),
+					'section'     => 'background',
+					'priority'    => 60,
+					'type'        => 'info-text'
+				)
+			)
+		);
 	
 	/* == Portfolio section == */
 	
@@ -375,15 +381,17 @@ function toivo_lite_customize_register( $wp_customize ) {
 	
 		/* Add the portfolio title control. */
 		$wp_customize->add_control(
-			'portfolio_title',
-			array(
-				'label'       => esc_html__( 'Portfolio Page Title', 'toivo-lite' ),
-				'description' => sprintf( __( '<a href="%s" target="_blank">Upgrade to Toivo (Pro)</a> for changing Portfolio title and description.', 'toivo-lite' ), esc_url( toivo_lite_get_upgrade_link() ) ),
-				'section'     => 'portfolio',
-				'priority'    => 10,
-				'type'        => 'text'
-			)
-		);
+			new Toivo_Lite_Customize_Control_Info_Text(
+				$wp_customize,
+				'portfolio_title',
+					array(
+						'label'       => esc_html__( 'Portfolio Page Title', 'toivo-lite' ),
+						'description' => sprintf( __( '<a href="%s" target="_blank">Upgrade to Toivo (Pro)</a> for changing Portfolio title and description.', 'toivo-lite' ), esc_url( toivo_lite_get_upgrade_link() ) ),
+						'section'     => 'portfolio',
+						'type'        => 'info-text'
+					)
+				)
+			);
 	
 	}
 	
@@ -408,17 +416,19 @@ function toivo_lite_customize_register( $wp_customize ) {
 		)
 	);
 	
-	/* Add the footer section control. */
+	/* Add the text control for the 'footer_section' setting. */
 	$wp_customize->add_control(
-		'footer_section',
-		array(
-			'label'       => esc_html__( 'Footer section', 'toivo-lite' ),
-			'description' => sprintf( __( '<a href="%s" target="_blank">Upgrade to Toivo (Pro)</a> for hiding or changing Footer text.', 'toivo-lite' ), esc_url( toivo_lite_get_upgrade_link() ) ),
-			'section'     => 'footer',
-			'priority'    => 10,
-			'type'        => 'text'
-		)
-	);
+		new Toivo_Lite_Customize_Control_Info_Text(
+			$wp_customize,
+			'footer_section',
+				array(
+					'label'       => esc_html__( 'Enter footer text', 'toivo-lite' ),
+					'description' => sprintf( __( '<a href="%s" target="_blank">Upgrade to Toivo (Pro)</a> for hiding or changing Footer text.', 'toivo-lite' ), esc_url( toivo_lite_get_upgrade_link() ) ),
+					'section'     => 'footer',
+					'type'        => 'info-text'
+				)
+			)
+		);
 	
 }
 add_action( 'customize_register', 'toivo_lite_customize_register' );
