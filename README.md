@@ -27,6 +27,13 @@ All other resources and theme elements are licensed under the [GNU GPL](http://w
 
 ## Changelog
 
+### Version 1.0.2 - April 24, 2015
+
+* Add testimonial area in Front Page template.
+* Add Info Text Class for the Customizer.
+* Add up sell links in the Customizer and in the Metabox.
+* Update language files.
+
 ### Version 1.0.1 - April 18, 2015
 
 * Remove default from Callout section and Front Page Widget area.
