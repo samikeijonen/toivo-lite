@@ -219,16 +219,6 @@ function toivo_lite_scripts() {
 add_action( 'wp_enqueue_scripts', 'toivo_lite_scripts' );
 
 /**
- * Add custom CSS in the Customizer.
- *
- * @since  1.0.0
- */
-function toivo_lite_customizer_css() {
-	wp_enqueue_style( 'toivo-lite-customizer-css', get_template_directory_uri() . '/inc/css/customizer.css', array(), TOIVO_LITE_VERSION, true );
-}
-add_action( 'customize_controls_enqueue_scripts', 'toivo_lite_customizer_css' );
-
-/**
  * Function for deciding which pages should have a one-column layout.
  *
  * @since  1.0.0
@@ -496,3 +486,8 @@ require_once( get_template_directory() . '/inc/schema.php' );
  * Load media grabber file.
  */
 require_once( get_template_directory() . '/inc/media-grabber.php' );
+
+/**
+ * Load meta boxes.
+ */
+require_once( get_template_directory() . '/inc/meta-boxes.php' );
