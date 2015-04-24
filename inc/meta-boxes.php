@@ -39,7 +39,7 @@ function toivo_lite_meta_box_display( $post, $metabox ) {
 	wp_nonce_field( basename( __FILE__ ), 'toivo-metabox-nonce' ); ?>
 	
 	</p>
-		<?php echo sprintf( __( 'Want to replace header text with Callout text and description in singular views. <a href="%s">Upgrade to Toivo (Pro)</a>.', 'toivo-lite' ), esc_url( toivo_lite_get_upgrade_link() ) ); ?>
+		<?php echo sprintf( __( 'Want to replace header text with Callout text and description in singular views? <a href="%s">Upgrade to Toivo (Pro)</a>.', 'toivo-lite' ), esc_url( toivo_lite_get_upgrade_link() ) ); ?>
 	</p>
 
 	<?php
