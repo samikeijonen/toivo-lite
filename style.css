@@ -2416,7 +2416,7 @@ body #infinite-handle,
 }
 .post-type-archive-jetpack-testimonial #testimonial-area {
 	padding-top: 0;
-	padding-bottom: 0;
+	padding-bottom: 5%;
 }
 .post-type-archive-jetpack-testimonial .testimonial-area > .entry-content {
 	text-align: center;
