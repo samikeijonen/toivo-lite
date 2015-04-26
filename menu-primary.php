@@ -6,7 +6,7 @@
  */
 ?>
 
-	<button id="nav-toggle"><?php _e( 'Menu', 'toivo-lite' ); ?></button>
+	<button id="nav-toggle"><?php _e( 'Primary Menu', 'toivo-lite' ); ?></button>
 	
 	<nav id="menu-primary" class="menu main-navigation" role="navigation" aria-label="<?php esc_attr_e( 'Primary Menu', 'toivo-lite' ); ?>" <?php hybrid_attr( 'menu', 'primary' ); ?>>
 		<h2 class="screen-reader-text"><?php esc_attr_e( 'Primary Menu', 'toivo-lite' ); ?></h2>
