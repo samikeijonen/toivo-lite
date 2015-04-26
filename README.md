@@ -31,7 +31,7 @@ All other resources and theme elements are licensed under the [GNU GPL](http://w
 
 * Change footer text colors for passing #a11y tests.
 * Change default header image color opacity to 70 and add filters around it.
-* Add better labels for Menu buttons: Top Menu, Social Menu and Primary Menu.
+* Add better labels for Menu buttons: Top Menu and Social Menu. Primary Menu is just labeled as Menu.
 * Update language files.
 * Remove Twenty Fifteen reference in inc/template-tags.php.
 
