@@ -27,6 +27,14 @@ All other resources and theme elements are licensed under the [GNU GPL](http://w
 
 ## Changelog
 
+### Version 1.0.3 - April 26, 2015
+
+* Change footer text colors for passing #a11y tests.
+* Change default header image color opacity to 70 and add filters around it.
+* Add better labels for Menu buttons: Top Menu, Social Menu and Primary Menu.
+* Update language files.
+* Remove Twenty Fifteen reference in inc/template-tags.php.
+
 ### Version 1.0.2 - April 24, 2015
 
 * Add testimonial area in Front Page template.
