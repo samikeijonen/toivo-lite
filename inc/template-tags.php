@@ -158,7 +158,7 @@ if ( ! function_exists( 'toivo_lite_post_thumbnail' ) ) :
  * Wraps the post thumbnail in an anchor element on index views, or a div
  * element when on single views.
  *
- * @since Twenty Fifteen 1.0
+ * @since 1.0.0
  */
 function toivo_lite_post_thumbnail() {
 	if ( post_password_required() || is_attachment() || ! has_post_thumbnail() ) {
@@ -168,17 +168,17 @@ function toivo_lite_post_thumbnail() {
 	if ( is_singular() && !is_page_template( 'pages/front-page.php' ) && !is_page_template( 'pages/child-pages.php' ) ) :
 	?>
 
-	<div class="post-thumbnail">
-		<?php the_post_thumbnail(); ?>
-	</div><!-- .post-thumbnail -->
+		<div class="post-thumbnail">
+			<?php the_post_thumbnail(); ?>
+		</div><!-- .post-thumbnail -->
 
 	<?php else : ?>
 
-	<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true">
-		<?php
-			the_post_thumbnail( 'post-thumbnail', array( 'alt' => get_the_title() ) );
-		?>
-	</a>
+		<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true">
+			<?php
+				the_post_thumbnail( 'post-thumbnail', array( 'alt' => get_the_title() ) );
+			?>
+		</a>
 
 	<?php endif; // End is_singular()
 }
