@@ -2,9 +2,9 @@
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Toivo Lite 1.0.1\n"
+"Project-Id-Version: Toivo Lite 1.0.3\n"
 "Report-Msgid-Bugs-To: https://foxland.fi/contact/\n"
-"POT-Creation-Date: 2015-04-24 14:38:46+00:00\n"
+"POT-Creation-Date: 2015-04-26 07:54:18+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -142,12 +142,12 @@ msgstr ""
 msgid "Skip to content"
 msgstr ""
 
-#: header.php:33 menu-primary.php:9
-msgid "Menu"
+#: header.php:33 menu-top.php:11 menu-top.php:12
+msgid "Top Menu"
 msgstr ""
 
-#: header.php:37
-msgid "Social"
+#: header.php:37 menu-social.php:11 menu-social.php:12
+msgid "Social Menu"
 msgstr ""
 
 #: header.php:94
@@ -371,16 +371,8 @@ msgstr ""
 msgid "You are browsing the search results for &#8220;%s&#8221;"
 msgstr ""
 
-#: menu-primary.php:11 menu-primary.php:12
+#: menu-primary.php:9 menu-primary.php:11 menu-primary.php:12
 msgid "Primary Menu"
-msgstr ""
-
-#: menu-social.php:11 menu-social.php:12
-msgid "Social Menu"
-msgstr ""
-
-#: menu-top.php:11 menu-top.php:12
-msgid "Top Menu"
 msgstr ""
 
 #: sidebar-subsidiary.php:52
