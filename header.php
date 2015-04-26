@@ -30,11 +30,11 @@
 			
 			<div id="top-header-buttons" class="top-header-buttons">
 				<?php if ( has_nav_menu( 'top' ) ) : ?>
-					<button id="top-nav-toggle"><?php _e( 'Menu', 'toivo-lite' ); ?></button>
+					<button id="top-nav-toggle"><?php _e( 'Top Menu', 'toivo-lite' ); ?></button>
 				<?php endif; ?>
 			
 				<?php if ( has_nav_menu( 'social' ) ) : ?>
-					<button id="social-nav-toggle"><?php _e( 'Social', 'toivo-lite' ); ?></button>
+					<button id="social-nav-toggle"><?php _e( 'Social Menu', 'toivo-lite' ); ?></button>
 				<?php endif; ?>
 			</div><!-- .top-header-buttons -->
 				
