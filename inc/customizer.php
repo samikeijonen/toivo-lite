@@ -311,7 +311,7 @@ function toivo_lite_customize_register( $wp_customize ) {
 	$wp_customize->add_setting(
 		'header_background_color_opacity',
 		array(
-			'default'           => absint( apply_filters( 'toivo_lite_default_bg_opacity' , 70 ) ),
+			'default'           => absint( apply_filters( 'toivo_lite_default_bg_opacity', 70 ) ),
 			'sanitize_callback' => 'absint',
 		)
 	);
@@ -443,7 +443,7 @@ function toivo_lite_color_backgrounds_css() {
 	
 	/* Get header colors. */
 	$header_bg_color = get_theme_mod( 'header_background_color', '#3b5667' );
-	$header_bg_color_opacity = absint( get_theme_mod( 'header_background_color_opacity', absint( apply_filters( 'toivo_lite_default_bg_opacity' , 70 ) ) ) );
+	$header_bg_color_opacity = absint( get_theme_mod( 'header_background_color_opacity', absint( apply_filters( 'toivo_lite_default_bg_opacity', 70 ) ) ) );
 	$header_bg_color_opacity = $header_bg_color_opacity / 100;
 
 	/* Convert hex color to rgba. */
