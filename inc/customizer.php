@@ -311,7 +311,7 @@ function toivo_lite_customize_register( $wp_customize ) {
 	$wp_customize->add_setting(
 		'header_background_color_opacity',
 		array(
-			'default'           => 65,
+			'default'           => absint( apply_filters( 'toivo_lite_default_bg_opacity' , 70 ) ),
 			'sanitize_callback' => 'absint',
 		)
 	);
@@ -443,15 +443,14 @@ function toivo_lite_color_backgrounds_css() {
 	
 	/* Get header colors. */
 	$header_bg_color = get_theme_mod( 'header_background_color', '#3b5667' );
-	$header_bg_color_opacity = absint( get_theme_mod( 'header_background_color_opacity', 65 ) );
+	$header_bg_color_opacity = absint( get_theme_mod( 'header_background_color_opacity', absint( apply_filters( 'toivo_lite_default_bg_opacity' , 70 ) ) ) );
 	$header_bg_color_opacity = $header_bg_color_opacity / 100;
 
 	/* Convert hex color to rgba. */
 	$header_bg_color_rgb = toivo_lite_hex2rgb( $header_bg_color );
-	$subsidiary_sidebar_bg_color_rgb = toivo_lite_hex2rgb( $subsidiary_sidebar_bg_color );
 	
 	/* Header bg styles. */	
-	if ( '#3b5667' !== $header_bg_color || 90 !== $header_bg_color_opacity ) {
+	if ( '#3b5667' !== $header_bg_color || 70 !== $header_bg_color_opacity ) {
 			
 		$bg_color_css = "
 			.site-header,
