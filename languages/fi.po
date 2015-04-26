@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Toivo 1.0.0\n"
 "Report-Msgid-Bugs-To: https://foxland.fi/contact/\n"
-"POT-Creation-Date: 2015-04-26 07:54:18+00:00\n"
-"PO-Revision-Date: 2015-04-26 10:56+0200\n"
+"POT-Creation-Date: 2015-04-26 08:45:39+00:00\n"
+"PO-Revision-Date: 2015-04-26 11:45+0200\n"
 "Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
 "Language-Team: \n"
 "Language: fi\n"
@@ -398,7 +398,11 @@ msgstr "Uudemmat kommentit &rarr;"
 msgid "You are browsing the search results for &#8220;%s&#8221;"
 msgstr "Selaat hakutuloksia haulle &#8220;%s&#8221;"
 
-#: menu-primary.php:9 menu-primary.php:11 menu-primary.php:12
+#: menu-primary.php:9
+msgid "Menu"
+msgstr "Valikko"
+
+#: menu-primary.php:11 menu-primary.php:12
 msgid "Primary Menu"
 msgstr "Päävalikko"
 
