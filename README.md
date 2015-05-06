@@ -27,6 +27,11 @@ All other resources and theme elements are licensed under the [GNU GPL](http://w
 
 ## Changelog
 
+### Version 1.0.4 - May 6, 2015
+
+* Remove example.html file from Genericons for security (DOM-based XSS) reasons.
+* Add filter 'toivo_lite_default_bg_color' around default header background color.
+
 ### Version 1.0.3 - April 26, 2015
 
 * Change footer text colors for passing #a11y tests.
