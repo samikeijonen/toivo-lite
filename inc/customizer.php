@@ -292,7 +292,7 @@ function toivo_lite_customize_register( $wp_customize ) {
 	$wp_customize->add_setting(
 		'header_background_color',
 		array(
-			'default'           => sanitize_hex_color( apply_filters( 'toivo_lite_default_bg_color', '#3b5667' ) ),
+			'default'           => apply_filters( 'toivo_lite_default_bg_color', '#3b5667' ),
 			'sanitize_callback' => 'sanitize_hex_color',
 		)
 	);
