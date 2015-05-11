@@ -23,6 +23,37 @@ grunt.initConfig({
         }
       }
     },
+	
+	// Transife setup
+	exec: {
+		txpull: { // Pull Transifex translation - grunt exec:txpull
+			cmd: 'tx pull -a --minimum-perc=80' // Change the percentage with --minimum-perc=yourvalue
+		},
+		txpush_s: { // Push pot to Transifex - grunt exec:txpush_s
+			cmd: 'tx push -s'
+		},
+    },
+
+	dirs: {
+		lang: 'languages',
+	},
+	
+	// .po to .mo
+	potomo: {
+		dist: {
+			options: {
+				poDel: false
+			},
+			files: [{
+				expand: true,
+				cwd: '<%= dirs.lang %>',
+				src: ['*.po'],
+				dest: '<%= dirs.lang %>',
+				ext: '.mo',
+				nonull: true
+			}]
+		}
+	},
 
 	// Right to left styles
 	rtlcss: {
@@ -75,12 +106,6 @@ grunt.initConfig({
 				'js/settings.min.js': ['js/settings.js']
 			}
 		},
-		fluidvids: {
-			files: {
-				'js/fluidvids/fluidvids.min.js': ['js/fluidvids/fluidvids.js'],
-				'js/fluidvids/settings.min.js': ['js/fluidvids/settings.js']
-			}
-		},
 		settigns: {
 			files: {
 				'js/functions.min.js': ['js/functions.js'],
@@ -94,10 +119,6 @@ grunt.initConfig({
 		css: {
 			src: 'style.css',
 			dest: 'style.min.css'
-		},
-		cssrtl: {
-			src: 'style-rtl.css',
-			dest: 'style-rtl.min.css'
 		},
 		genericons: {
 			src: 'fonts/genericons/genericons/genericons.css',
@@ -126,7 +147,8 @@ grunt.initConfig({
           '!**/Gruntfile.js',
           '!**/package.json',
           '!**/*~',
-		  '!style-rtl.css'
+		  '!style-rtl.css',
+		  '!tx.exe'
         ],
         dest: 'build/<%= pkg.name %>/'
       }
@@ -173,7 +195,13 @@ grunt.initConfig({
 });
 
 // Default task.
-grunt.registerTask( 'default', [ 'makepot', 'rtlcss' ] );
+grunt.registerTask( 'default', [ 'makepot', 'rtlcss', 'uglify', 'cssmin' ] );
+
+// Makepot and push it on Transifex task(s).
+grunt.registerTask( 'makandpush', [ 'makepot', 'exec:txpush_s' ] );
+
+// Pull from Transifex and create .mo task(s).
+grunt.registerTask( 'tx', [ 'exec:txpull', 'potomo' ] );
 
 // Build task(s).
 grunt.registerTask( 'build', [ 'clean', 'replace:styleVersion', 'replace:functionsVersion', 'copy', 'compress' ] );
