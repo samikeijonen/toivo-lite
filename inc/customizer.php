@@ -442,7 +442,7 @@ add_action( 'customize_register', 'toivo_lite_customize_register' );
 function toivo_lite_color_backgrounds_css() {
 	
 	/* Get header colors. */
-	$header_bg_color = get_theme_mod( 'header_background_color', '#3b5667' );
+	$header_bg_color = get_theme_mod( 'header_background_color', apply_filters( 'toivo_lite_default_bg_color', '#3b5667' ) );
 	$header_bg_color_opacity = absint( get_theme_mod( 'header_background_color_opacity', absint( apply_filters( 'toivo_lite_default_bg_opacity', 70 ) ) ) );
 	$header_bg_color_opacity = $header_bg_color_opacity / 100;
 
