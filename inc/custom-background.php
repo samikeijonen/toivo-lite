@@ -27,7 +27,7 @@ function toivo_lite_custom_background_setup() {
 add_action( 'after_setup_theme', 'toivo_lite_custom_background_setup', 15 );
 
 /**
- * This is a fix for when a user sets a custom background color with no custom background image.  What 
+ * This is a fix for when a user sets a custom background color with no custom background image. What 
  * happens is the theme's background image hides the user-selected background color.  If a user selects a 
  * background image, we'll just use the WordPress custom background callback.  This also fixes WordPress 
  * not correctly handling the theme's default background color.
