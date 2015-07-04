@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Toivo Lite 1.0.6\n"
 "Report-Msgid-Bugs-To: https://foxland.fi/contact/\n"
-"POT-Creation-Date: 2015-06-02 18:23:08+00:00\n"
+"POT-Creation-Date: 2015-07-04 07:49:01+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -189,6 +189,11 @@ msgstr ""
 #: inc/breadcrumb-trail.php:188
 #. Translators: Weekly archive title. %s is the week date format.
 msgid "Week %s"
+msgstr ""
+
+#: inc/custom-header.php:30
+#. Translators: Header image description.
+msgid "Default Header Image"
 msgstr ""
 
 #: inc/customizer.php:24
