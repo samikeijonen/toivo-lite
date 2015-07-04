@@ -19,6 +19,18 @@ function toivo_lite_custom_header_setup() {
 		'flex-height'            => true,
 		'wp-head-callback'       => 'toivo_lite_header_style'
 	) ) );
+	
+	/* Registers default headers for the theme. We need this so that we can set default image back. */
+	register_default_headers(
+		array(
+			'toivo-lite-header' => array(
+				'url'           => '%s/images/header.jpg',
+				'thumbnail_url' => '%s/images/header.jpg',
+				/* Translators: Header image description. */
+				'description'   => __( 'Default Header Image', 'toivo-lite' )
+			)
+		)
+	);
 
 }
 add_action( 'after_setup_theme', 'toivo_lite_custom_header_setup', 15 );
