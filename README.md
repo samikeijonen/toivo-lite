@@ -34,6 +34,14 @@ All other resources and theme elements are licensed under the [GNU GPL](http://w
 
 ## Changelog
 
+### Version 1.0.7 - July 4, 2015
+
+* Fix: You can now use several videos in video post format.
+* Tweak: Register default header image for the theme. We need this so that we can set default header image back.
+* Tweak: Sync style with Toivo (Pro) version.
+
+* Add support for Spotify and Soundcloud in Social menu.
+
 ### Version 1.0.6 - June 2, 2015
 
 * Add support for Spotify and Soundcloud in Social menu.
