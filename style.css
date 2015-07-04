@@ -1022,13 +1022,17 @@ button#nav-toggle {
 	}
 
 	.js .main-navigation,
-	.js .main-navigation .sub-menu {
+	.js .toivo-theme .main-navigation .sub-menu {
 		clip: rect(0 0 0 0);
 		max-height: 0;
 		position: absolute;
 		display: block;
 		overflow: hidden;
 		zoom: 1;
+	}
+
+	.js .toivo-theme .main-navigation,
+	.js .toivo-theme .main-navigation .sub-menu {
 		-webkit-transition: 5s;  
 		-moz-transition: 5s;
 		-ms-transition: 5s;
@@ -1036,14 +1040,17 @@ button#nav-toggle {
 		transition: 5s;
 	}
 
-	.main-navigation.opened,
-	html.js .main-navigation.opened,
-	.main-navigation .sub-menu.toggled {
+	.main-navigation.opened {
+		max-height: 9999px;
+	}
+	
+	html.js .toivo-theme .main-navigation.opened,
+	.toivo-theme .main-navigation .sub-menu.toggled {
 		max-height: 9999px !important;
 	}
 	
-	.main-navigation.opened,
-	.main-navigation .sub-menu.toggled {
+	.toivo-theme .main-navigation.opened,
+	.toivo-theme .main-navigation .sub-menu.toggled {
 		position: relative;
 	}
 		
