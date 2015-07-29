@@ -8,7 +8,7 @@
 /**
  * The current version of the theme.
  */
-define( 'TOIVO_LITE_VERSION', '1.0.7' );
+define( 'TOIVO_LITE_VERSION', '1.0.8' );
 
 /**
  * The suffix to use for scripts.
@@ -185,10 +185,10 @@ function toivo_lite_fonts_url() {
 			'family' => urlencode( implode( '|', $font_families ) ),
 			'subset' => urlencode( 'latin,latin-ext' ),
 		);
-		$fonts_url = add_query_arg( $query_args, "//fonts.googleapis.com/css" );
+		$fonts_url = add_query_arg( $query_args, 'https://fonts.googleapis.com/css' );
 	}
 
-	return $fonts_url;
+	return esc_url_raw( $fonts_url );
 }
 
 /**
