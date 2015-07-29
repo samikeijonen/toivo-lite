@@ -4,7 +4,7 @@ Theme URI: https://foxland.fi/downloads/toivo/
 Author: Sami Keijonen
 Author URI: https://foxland.fi
 Description: Toivo Lite is perfect fit for business, personal or blog sites. It has beautiful Front Page template where you can show your important content, testimonials and Callout links. Toivo Lite is an accessible, translation-ready theme which supports plenty of features like Right to Left languages and Schema.org microdata.
-Version: 1.0.7
+Version: 1.0.8
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: toivo-lite
@@ -1020,7 +1020,7 @@ button#nav-toggle {
 	#menu-primary ul ul ul ul li a {
 		padding-left: 13%;
 	}
-
+	
 	.js .main-navigation,
 	.js .toivo-theme .main-navigation .sub-menu {
 		clip: rect(0 0 0 0);
@@ -1040,18 +1040,20 @@ button#nav-toggle {
 		transition: 5s;
 	}
 
-	.main-navigation.opened {
+	.main-navigation.opened,
+	.toivo-theme .main-navigation .sub-menu.toggled {
 		max-height: 9999px;
+		position: relative;
 	}
 	
 	html.js .toivo-theme .main-navigation.opened,
 	.toivo-theme .main-navigation .sub-menu.toggled {
-		max-height: 9999px !important;
+		max-height: 9999px;
 	}
 	
-	.toivo-theme .main-navigation.opened,
-	.toivo-theme .main-navigation .sub-menu.toggled {
-		position: relative;
+	/* Enable active class to let the navigation expand over the calculated max height. */
+	.main-navigation.opened.dropdown-active {
+		max-height: 9999px !important;
 	}
 		
 	.disable-pointer-events {
@@ -1327,6 +1329,10 @@ button#nav-toggle {
 	text-transform: uppercase;
 }
 
+.social-navigation ul {
+	margin: 0;
+}
+
 @media screen and (max-width: 1199px) {
 
 	.top-navigation ul,
@@ -1402,16 +1408,20 @@ button#nav-toggle {
 	.top-navigation.opened,
 	.social-navigation.opened {
 		clear: both;
-		margin-bottom: 80px;
 		max-height: 9999px;
 	}
-	.social-navigation.opened {
-		padding-top: 40px;
+
+	.social-navigation ul {
+		padding: 40px 4%;
+	}
+	
+	.has-site-logo .top-navigation ul,
+	.has-site-logo .social-navigation ul {
 		padding-bottom: 80px;
 	}
-	.top-navigation.opened + .social-navigation.opened {
-		padding-top: 0;
-		margin-top: -40px;
+	.has-site-logo .social-navigation ul {
+		padding-bottom: 80px;
+		padding-top: 40px;
 	}
 
 	.disable-pointer-events {
@@ -1487,8 +1497,6 @@ button#nav-toggle {
 
 #menu-social ul {
 	list-style: none;
-	padding: 0;
-	margin: 0;
 }
 
 #menu-social ul li {
@@ -2145,7 +2153,7 @@ body .search-submit {
 	padding-right: 16px;
 }
 
-.layout-1c .breadcrumb-trail {
+.breadcrumb-trail {
 	text-align: center;
 }
 
@@ -2406,7 +2414,8 @@ body #infinite-handle,
 	.layout-2c-l .breadcrumb-trail,
 	.layout-2c-r .breadcrumb-trail {
 		padding-left: 0;
-		padding-right: 0;		
+		padding-right: 0;
+		text-align: left;
 	}
 
 }
