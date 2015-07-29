@@ -5,25 +5,23 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Toivo Lite\n"
 "Report-Msgid-Bugs-To: https://foxland.fi/contact/\n"
-"POT-Creation-Date: 2015-05-11 18:55:18+00:00\n"
-"PO-Revision-Date: 2015-05-11 18:56+0000\n"
+"POT-Creation-Date: 2015-07-15 09:02:59+00:00\n"
+"PO-Revision-Date: 2015-07-15 12:04+0300\n"
 "Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
-"Language-Team: Finnish (http://www.transifex.com/projects/p/toivo-lite/language/fi/)\n"
+"Language-Team: Finnish (http://www.transifex.com/p/toivo-lite/language/fi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: grunt-wp-i18n 0.5.0\n"
+"X-Generator: Poedit 1.8.2\n"
 
 #: 404.php:15
 msgid "Oops! That page can&rsquo;t be found."
 msgstr "Ups! Tätä sivua ei löydy."
 
 #: 404.php:19
-msgid ""
-"It looks like nothing was found at this location. Maybe try one of the links"
-" below or a search?"
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
 msgstr "Näyttää siltä, että mitään ei löytynyt tästä osoitteesta. Koita navigoida alla olevista linkeistä tai etsiä haluamaasi."
 
 #: 404.php:27
@@ -43,10 +41,7 @@ msgstr "Edellinen sivu"
 msgid "Next page"
 msgstr "Seuraava sivu"
 
-#: archive-jetpack-testimonial.php:50 content-audio.php:40
-#: content-child-pages.php:40 content-jetpack-portfolio.php:40
-#: content-page.php:36 content-video.php:40 content.php:40 image.php:38
-#: index.php:37 search.php:30
+#: archive-jetpack-testimonial.php:50 content-audio.php:40 content-child-pages.php:40 content-jetpack-portfolio.php:40 content-page.php:36 content-video.php:40 content.php:40 image.php:38 index.php:37 search.php:30
 msgid "Page"
 msgstr "Sivu"
 
@@ -66,29 +61,21 @@ msgstr "Jätä kommentti"
 msgid "Comments are closed."
 msgstr "Kommentointi on suljettu."
 
-#: content-aside.php:28 content-audio.php:47 content-link.php:50
-#: content-status.php:30 content-video.php:47 content.php:47
+#: content-aside.php:28 content-audio.php:47 content-link.php:50 content-status.php:30 content-video.php:47 content.php:47
 msgid "Posted in %s"
 msgstr "Artikkeli kategoriassa %s"
 
-#: content-aside.php:29 content-audio.php:48 content-jetpack-portfolio.php:48
-#: content-link.php:51 content-status.php:31 content-video.php:48
-#: content.php:48
+#: content-aside.php:29 content-audio.php:48 content-jetpack-portfolio.php:48 content-link.php:51 content-status.php:31 content-video.php:48 content.php:48
 msgid "Tagged %s"
 msgstr "Avainsanat %s"
 
 #. translators: %s: Name of current post
 #. Translators: The %s is the post title shown to screen readers.
-#: content-audio.php:33 content-child-pages.php:33
-#: content-jetpack-portfolio.php:33 content-jetpack-testimonial.php:23
-#: content-jetpack-testimonial.php:68 content-link.php:42 content-page.php:29
-#: content-video.php:33 content.php:33 functions.php:272
+#: content-audio.php:33 content-child-pages.php:33 content-jetpack-portfolio.php:33 content-jetpack-testimonial.php:23 content-jetpack-testimonial.php:68 content-link.php:42 content-page.php:29 content-video.php:33 content.php:33 functions.php:272
 msgid "Read more %s"
 msgstr "Lue lisää %s"
 
-#: content-audio.php:38 content-child-pages.php:38
-#: content-jetpack-portfolio.php:38 content-page.php:34 content-video.php:38
-#: content.php:38 image.php:36
+#: content-audio.php:38 content-child-pages.php:38 content-jetpack-portfolio.php:38 content-page.php:34 content-video.php:38 content.php:38 image.php:36
 msgid "Pages:"
 msgstr "Sivut:"
 
@@ -105,15 +92,11 @@ msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr "Oletko valmis julkaisemaan ensimmäisen kirjoituksesi? <a href=\"%1$s\">Aloita tästä</a>."
 
 #: content-none.php:27
-msgid ""
-"Sorry, but nothing matched your search terms. Please try again with some "
-"different keywords."
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
 msgstr "Hakusi ei valitettavasti tuottanut yhtään tulosta. Yritä uudelleen eri hakusanoilla."
 
 #: content-none.php:35
-msgid ""
-"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
-"searching can help."
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
 msgstr "Emme valitettavasti löytäneet etsimääsi. Ehkä hakutoiminnosta on apua."
 
 #: footer.php:25
@@ -129,8 +112,7 @@ msgid "Theme %1$s by %2$s"
 msgstr "Teeman %1$s tekijä %2$s"
 
 #: functions.php:121
-msgid ""
-"The main sidebar. It is displayed on the right or left side of the page."
+msgid "The main sidebar. It is displayed on the right or left side of the page."
 msgstr "Päävimpainalue. Tähän liitetyt vimpaimet näkyvät sisällön oikealla tai vasemmalla puolella."
 
 #: functions.php:131
@@ -157,42 +139,47 @@ msgstr "Somevalikko"
 msgid "Breadcrumbs"
 msgstr "Murupolku"
 
-#: inc/breadcrumb-trail.php:177
+#: inc/breadcrumb-trail.php:244
 msgid "Browse:"
 msgstr "Navigointi:"
 
-#: inc/breadcrumb-trail.php:178
+#: inc/breadcrumb-trail.php:246
 msgid "Home"
 msgstr "Etusivu"
 
-#: inc/breadcrumb-trail.php:179
+#: inc/breadcrumb-trail.php:247
 msgid "404 Not Found"
 msgstr "404 Sivua ei löytynyt"
 
-#: inc/breadcrumb-trail.php:180
+#: inc/breadcrumb-trail.php:248
 msgid "Archives"
 msgstr "Arkistot"
 
 #. Translators: %s is the search query. The HTML entities are opening and
 #. closing curly quotes.
-#: inc/breadcrumb-trail.php:182 loop-meta.php:17
+#: inc/breadcrumb-trail.php:250 loop-meta.php:17
 msgid "Search results for &#8220;%s&#8221;"
 msgstr "Hakutulokset haulle  &#8220;%s&#8221;"
 
 #. Translators: %s is the page number.
-#: inc/breadcrumb-trail.php:184
+#: inc/breadcrumb-trail.php:252
 msgid "Page %s"
 msgstr "Sivu %s"
 
 #. Translators: Minute archive title. %s is the minute time format.
-#: inc/breadcrumb-trail.php:186
+#: inc/breadcrumb-trail.php:254
 msgid "Minute %s"
 msgstr "Minuutti %s"
 
 #. Translators: Weekly archive title. %s is the week date format.
-#: inc/breadcrumb-trail.php:188
+#: inc/breadcrumb-trail.php:256
 msgid "Week %s"
 msgstr "Viikko %s"
+
+#. Translators: Header image description.
+#: inc/custom-header.php:30
+msgid "Default Header Image"
+msgstr "Oletus otsakekuva"
 
 #: inc/customizer.php:24
 msgid "Theme Settings"
@@ -223,9 +210,7 @@ msgid "Front Page Settings"
 msgstr "Etusivun asetukset"
 
 #: inc/customizer.php:75
-msgid ""
-"Callout at the top. <a href=\"%s\" target=\"_blank\">Upgrade to Toivo "
-"(Pro)</a> for adding similar Callout section at the bottom."
+msgid "Callout at the top. <a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for adding similar Callout section at the bottom."
 msgstr "Callout-osio ylhäällä. <a href=\"%s\" target=\"_blank\">Päivitä Toivo (Pro) -versioon</a> jos haluat samanlaisen Callout-osion sivun alareunaan."
 
 #: inc/customizer.php:115
@@ -249,8 +234,7 @@ msgid "Hide testimonials"
 msgstr "Piilota suositukset"
 
 #: inc/customizer.php:202
-msgid ""
-"Check this if you want to hide testimonials from the Front Page Template."
+msgid "Check this if you want to hide testimonials from the Front Page Template."
 msgstr "Valitse tämä, jos haluta piilottaa suositukset Etusivu-sivupohjassa."
 
 #: inc/customizer.php:221
@@ -258,9 +242,7 @@ msgid "Testimonials after featured area"
 msgstr "Suositukset \"Featured\"-alueen jälkeen"
 
 #: inc/customizer.php:222
-msgid ""
-"Check this if you want to move testimonials after Featured area in the Front"
-" Page Template."
+msgid "Check this if you want to move testimonials after Featured area in the Front Page Template."
 msgstr "Valitse tämä, jos haluta näyttää suositukset \"Featured\"-alueen jälkeen."
 
 #. Template Name of the plugin/theme
@@ -280,9 +262,7 @@ msgid "Featured Content"
 msgstr "Etusivun \"featured\"-sisältö"
 
 #: inc/customizer.php:251
-msgid ""
-"Select do you want to feature Child Pages, Blog Posts or Portfolios in Front"
-" Page."
+msgid "Select do you want to feature Child Pages, Blog Posts or Portfolios in Front Page."
 msgstr "Valitse haluatko näyttää etusivulla alasivut, blogikirjoitukset vai portfoliot."
 
 #: inc/customizer.php:271
@@ -290,9 +270,7 @@ msgid "Callout Image"
 msgstr "Callout-kuva"
 
 #: inc/customizer.php:272
-msgid ""
-"<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for adding "
-"Callout Image."
+msgid "<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for adding Callout Image."
 msgstr "<a href=\"%s\" target=\"_blank\">Päivitä Toivo (Pro) -versioon</a> jos haluat lisätä Callout-kuvan."
 
 #: inc/customizer.php:285
@@ -316,9 +294,7 @@ msgid "Subsidiary Sidebar Background"
 msgstr "Alapalkin tausta"
 
 #: inc/customizer.php:351
-msgid ""
-"<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for adding "
-"Subsidiary Sidebar Background Image and Color."
+msgid "<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for adding Subsidiary Sidebar Background Image and Color."
 msgstr "<a href=\"%s\" target=\"_blank\">Päivitä Toivo (Pro) -versioon</a> jos haluat lisätä alapalkin vimpainalueeseen taustakuvan ja värin."
 
 #: inc/customizer.php:367
@@ -330,9 +306,7 @@ msgid "Portfolio Page Title"
 msgstr "Portfolio-sivun otsikko"
 
 #: inc/customizer.php:389
-msgid ""
-"<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for changing "
-"Portfolio title and description."
+msgid "<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for changing Portfolio title and description."
 msgstr "<a href=\"%s\" target=\"_blank\">Päivitä Toivo (Pro) -versioon</a> jos haluat muuttaa Portfolion otsikon ja kuvauksen."
 
 #: inc/customizer.php:404
@@ -344,9 +318,7 @@ msgid "Enter footer text"
 msgstr "Kirjoita alapalkin teksti"
 
 #: inc/customizer.php:426
-msgid ""
-"<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for hiding or "
-"changing Footer text."
+msgid "<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for hiding or changing Footer text."
 msgstr "<a href=\"%s\" target=\"_blank\">Päivitä Toivo (Pro) -versioon</a> jos haluat piilottaa tai korvata alapalkin tekstin."
 
 #: inc/meta-boxes.php:22
@@ -354,9 +326,7 @@ msgid "Header Callout text"
 msgstr "Otsakkeen \"Callout\" -teksti"
 
 #: inc/meta-boxes.php:42
-msgid ""
-"Want to replace header text with Callout text and description in singular "
-"views? <a href=\"%s\">Upgrade to Toivo (Pro)</a>."
+msgid "Want to replace header text with Callout text and description in singular views? <a href=\"%s\">Upgrade to Toivo (Pro)</a>."
 msgstr "Haluatko korvata otsakkeen tekstin omalla tekstille yksittäisillä sivuilla? <a href=\"%s\">Päivitä Toivo (Pro) versioon</a>."
 
 #: inc/template-tags.php:21
@@ -412,12 +382,7 @@ msgid "https://foxland.fi/downloads/toivo/"
 msgstr "https://foxland.fi/downloads/toivo/"
 
 #. Description of the plugin/theme
-msgid ""
-"Toivo Lite is perfect fit for business, personal or blog sites. It has "
-"beautiful Front Page template where you can show your important content, "
-"testimonials and Callout links. Toivo Lite is an accessible, translation-"
-"ready theme which supports plenty of features like Right to Left languages "
-"and Schema.org microdata."
+msgid "Toivo Lite is perfect fit for business, personal or blog sites. It has beautiful Front Page template where you can show your important content, testimonials and Callout links. Toivo Lite is an accessible, translation-ready theme which supports plenty of features like Right to Left languages and Schema.org microdata."
 msgstr "Toivo \"Lite\" on täydellinen teema sivuillesi oli se sitten yrityssivu tai henkilökohtainen blogi. Teemassa on upea Etusivu, jossa voit näyttää tärkeimmän sisällön, suositukset ja Callout-linkkejä. Teema on saanut virallisen saavutettavuus (Accessibility Ready) merkinnän ja siinä on paljon ominaisuuksia kuten tuki oikealta vasemmalle -kielille ja tuki Schema.org merkkauskielelle."
 
 #. Author of the plugin/theme
@@ -519,45 +484,42 @@ msgctxt "dash before menu item description"
 msgid "&ndash;"
 msgstr "&ndash;"
 
-#: inc/breadcrumb-trail.php:128
-msgctxt "Breadcrumbs aria label"
+#: inc/breadcrumb-trail.php:245
+msgctxt "breadcrumbs aria label"
 msgid "Breadcrumbs"
 msgstr "Murupolku"
 
-#: inc/breadcrumb-trail.php:723
+#: inc/breadcrumb-trail.php:708
 msgctxt "minute and hour archives time format"
 msgid "g:i a"
 msgstr "g:i"
 
-#: inc/breadcrumb-trail.php:740
+#: inc/breadcrumb-trail.php:725
 msgctxt "minute archives time format"
 msgid "i"
 msgstr "i"
 
-#: inc/breadcrumb-trail.php:757
+#: inc/breadcrumb-trail.php:742
 msgctxt "hour archives time format"
 msgid "g a"
 msgstr "g a"
 
-#: inc/breadcrumb-trail.php:773 inc/breadcrumb-trail.php:802
-#: inc/breadcrumb-trail.php:829 inc/breadcrumb-trail.php:856
-#: inc/breadcrumb-trail.php:1043
+#: inc/breadcrumb-trail.php:758 inc/breadcrumb-trail.php:787 inc/breadcrumb-trail.php:814 inc/breadcrumb-trail.php:841 inc/breadcrumb-trail.php:1176
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr "Y"
 
-#: inc/breadcrumb-trail.php:774 inc/breadcrumb-trail.php:830
-#: inc/breadcrumb-trail.php:1047
+#: inc/breadcrumb-trail.php:759 inc/breadcrumb-trail.php:815 inc/breadcrumb-trail.php:1180
 msgctxt "monthly archives date format"
 msgid "F"
 msgstr "F"
 
-#: inc/breadcrumb-trail.php:775 inc/breadcrumb-trail.php:1051
+#: inc/breadcrumb-trail.php:760 inc/breadcrumb-trail.php:1184
 msgctxt "daily archives date format"
 msgid "j"
 msgstr "j"
 
-#: inc/breadcrumb-trail.php:803
+#: inc/breadcrumb-trail.php:788
 msgctxt "weekly archives date format"
 msgid "W"
 msgstr "W"
