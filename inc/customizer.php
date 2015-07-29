@@ -401,7 +401,7 @@ function toivo_lite_customize_register( $wp_customize ) {
 	$wp_customize->add_section(
 		'footer',
 		array(
-			'title'    => esc_html__( 'Footer Settings', 'toivo' ),
+			'title'    => esc_html__( 'Footer Settings', 'toivo-lite' ),
 			'priority' => 50,
 			'panel'    => 'theme'
 		)
