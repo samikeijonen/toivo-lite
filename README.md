@@ -34,6 +34,14 @@ All other resources and theme elements are licensed under the [GNU GPL](http://w
 
 ## Changelog
 
+### Version 1.0.8 - July 30, 2015
+
+* Tweak: A little smoother navigation toggle.
+* Tweak: Update Breadcrumb Trail to version 1.0.1.
+* Tweak: Use https when loading Google fonts.
+* Tweak: A little smoother navigation toggle.
+* Fix: Correct theme text domain.
+
 ### Version 1.0.7 - July 4, 2015
 
 * Fix: You can now use several videos in video post format.
