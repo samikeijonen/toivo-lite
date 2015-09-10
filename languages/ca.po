@@ -8,7 +8,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-07-16 21:17+0300\n"
+"PO-Revision-Date: 2015-08-09 20:10+0300\n"
 "Last-Translator: Sami Keijonen <sami.keijonen@foxnet.fi>\n"
 "Language-Team: \n"
 "X-Generator: Poedit 1.8.2\n"
@@ -24,7 +24,7 @@ msgid ""
 "It looks like nothing was found at this location. Maybe try one of the links "
 "below or a search?"
 msgstr ""
-"Sembla que no hi ha res en aquesta ubicació. Potser que intentant un dels "
+"Sembla que no hi ha res en aquesta ubicació. Potser intentant un dels "
 "enllaços següents o fent una cerca?"
 
 #: 404.php:27
@@ -65,7 +65,7 @@ msgstr "Deixar un comentari"
 
 #: comments.php:63
 msgid "Comments are closed."
-msgstr "Els comentaris està tancat."
+msgstr "Els comentaris estan tancats."
 
 #: content-aside.php:28 content-audio.php:47 content-link.php:50
 #: content-status.php:30 content-video.php:47 content.php:47
@@ -121,7 +121,7 @@ msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
-"Sembla que no podem trobar el que estàs cercant. Potser que la cerca pugui "
+"Sembla que no podem trobar el que estàs cercant. Potser la cerca et pugui "
 "ajudar."
 
 #: footer.php:25
@@ -302,8 +302,8 @@ msgid ""
 "Select do you want to feature Child Pages, Blog Posts or Portfolios in Front "
 "Page."
 msgstr ""
-"Selecciona les pàgines, entrades del Bloc o portfolis que vulguis destacar a "
-"la pàgina principal."
+"Selecciona què vols destacar a la pàgina principal, pàgines secundàries, "
+"entrades del Bloc o portfolis."
 
 #: inc/customizer.php:271
 msgid "Callout Image"
@@ -343,7 +343,7 @@ msgid ""
 "Subsidiary Sidebar Background Image and Color."
 msgstr ""
 "<a href=\"%s\" target=\"_blank\">Actualitza a Toivo (Pro)</a> per afegir "
-"imatge i color al fons de la barra lateral subsidiària.."
+"imatge i color al fons de la barra lateral subsidiària."
 
 #: inc/customizer.php:367
 msgid "Portfolio Settings"
