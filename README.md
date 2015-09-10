@@ -34,6 +34,13 @@ All other resources and theme elements are licensed under the [GNU GPL](http://w
 
 ## Changelog
 
+### Version 1.1.0 - September 10, 2015
+
+* Fix: Check if Jetpack testimonial title is set. Otherwise there will be undefined notice.
+* Update Media Grabber.
+* Update schema.org markup.
+* Update language files.
+
 ### Version 1.0.8 - July 30, 2015
 
 * Tweak: A little smoother navigation toggle.
