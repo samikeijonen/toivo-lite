@@ -71,10 +71,11 @@ function toivo_lite_customize_register( $wp_customize ) {
 	$wp_customize->add_section(
 		'front-page',
 		array(
-			'title'       => esc_html__( 'Front Page Settings', 'toivo-lite' ),
-			'description' => sprintf( __( 'Callout at the top. <a href="%s" target="_blank">Upgrade to Toivo (Pro)</a> for adding similar Callout section at the bottom.', 'toivo-lite' ), esc_url( toivo_lite_get_upgrade_link() ) ),
-			'priority'    => 20,
-			'panel'       => 'theme'
+			'title'           => esc_html__( 'Front Page Settings', 'toivo-lite' ),
+			'description'     => sprintf( __( 'Callout at the top. <a href="%s" target="_blank">Upgrade to Toivo (Pro)</a> for adding similar Callout section at the bottom.', 'toivo-lite' ), esc_url( toivo_lite_get_upgrade_link() ) ),
+			'priority'        => 20,
+			'panel'           => 'theme',
+			'active_callback' => 'toivo_lite_is_front_page_template',
 		)
 	);
 	
@@ -516,6 +517,17 @@ function toivo_lite_sanitize_checkbox( $input ) {
 		return '';
 	}
 
+}
+
+/**
+ * Check if we're on Front Page template.
+ *
+ * @since  1.1.1
+ *
+ * @return boolean.
+ */
+function toivo_lite_is_front_page_template() {
+	return is_page_template( 'pages/front-page.php' );
 }
 
 /**
