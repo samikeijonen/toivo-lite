@@ -30,9 +30,14 @@ The following resources are included within the theme package.
 
 All other resources and theme elements are licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
 
-2015 &copy; [Sami Keijonen](https://foxland.fi).
+&copy; 2015-2016 [Sami Keijonen](https://foxland.fi).
 
 ## Changelog
+
+### Version 1.1.1 - January 29, 2016
+
+* Update dropdown menu styles for better keyboard accessibility.
+* Show Front Page Settings only if viewing the Front Page Template in the Customizer.
 
 ### Version 1.1.0 - September 10, 2015
 
