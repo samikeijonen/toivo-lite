@@ -1,14 +1,14 @@
-# Copyright (C) 2015 Sami Keijonen
+# Copyright (C) 2016 Sami Keijonen
 # This file is distributed under the GNU General Public License v2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: Toivo Lite 1.0.8\n"
+"Project-Id-Version: Toivo Lite 1.1.1\n"
 "Report-Msgid-Bugs-To: https://foxland.fi/contact/\n"
-"POT-Creation-Date: 2015-09-10 10:23:03+00:00\n"
+"POT-Creation-Date: 2016-01-29 08:20:55+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "X-Generator: grunt-wp-i18n 0.5.0\n"
@@ -230,35 +230,35 @@ msgid ""
 "(Pro)</a> for adding similar Callout section at the bottom."
 msgstr ""
 
-#: inc/customizer.php:115
+#: inc/customizer.php:116
 msgid "%s Callout title"
 msgstr ""
 
-#: inc/customizer.php:135
+#: inc/customizer.php:136
 msgid "%s Callout text"
 msgstr ""
 
-#: inc/customizer.php:155
+#: inc/customizer.php:156
 msgid "%s Callout URL"
 msgstr ""
 
-#: inc/customizer.php:175
+#: inc/customizer.php:176
 msgid "%s Callout URL text"
 msgstr ""
 
-#: inc/customizer.php:201
+#: inc/customizer.php:202
 msgid "Hide testimonials"
 msgstr ""
 
-#: inc/customizer.php:202
+#: inc/customizer.php:203
 msgid "Check this if you want to hide testimonials from the Front Page Template."
 msgstr ""
 
-#: inc/customizer.php:221
+#: inc/customizer.php:222
 msgid "Testimonials after featured area"
 msgstr ""
 
-#: inc/customizer.php:222
+#: inc/customizer.php:223
 msgid ""
 "Check this if you want to move testimonials after Featured area in the "
 "Front Page Template."
@@ -268,83 +268,83 @@ msgstr ""
 msgid "Child Pages"
 msgstr ""
 
-#: inc/customizer.php:242
+#: inc/customizer.php:243
 msgid "Blog Posts"
 msgstr ""
 
-#: inc/customizer.php:243
+#: inc/customizer.php:244
 msgid "Portfolios"
 msgstr ""
 
-#: inc/customizer.php:250
+#: inc/customizer.php:251
 msgid "Featured Content"
 msgstr ""
 
-#: inc/customizer.php:251
+#: inc/customizer.php:252
 msgid ""
 "Select do you want to feature Child Pages, Blog Posts or Portfolios in "
 "Front Page."
 msgstr ""
 
-#: inc/customizer.php:271
+#: inc/customizer.php:272
 msgid "Callout Image"
 msgstr ""
 
-#: inc/customizer.php:272
+#: inc/customizer.php:273
 msgid ""
 "<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for adding "
 "Callout Image."
 msgstr ""
 
-#: inc/customizer.php:285
+#: inc/customizer.php:286
 msgid "Background Settings"
 msgstr ""
 
-#: inc/customizer.php:304
+#: inc/customizer.php:305
 msgid "Header Background Color"
 msgstr ""
 
-#: inc/customizer.php:325
+#: inc/customizer.php:326
 msgid "Header Color Opacity."
 msgstr ""
 
-#: inc/customizer.php:326
+#: inc/customizer.php:327
 msgid "Set Header Color opacity."
 msgstr ""
 
-#: inc/customizer.php:350
+#: inc/customizer.php:351
 msgid "Subsidiary Sidebar Background"
 msgstr ""
 
-#: inc/customizer.php:351
+#: inc/customizer.php:352
 msgid ""
 "<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for adding "
 "Subsidiary Sidebar Background Image and Color."
 msgstr ""
 
-#: inc/customizer.php:367
+#: inc/customizer.php:368
 msgid "Portfolio Settings"
 msgstr ""
 
-#: inc/customizer.php:388
+#: inc/customizer.php:389
 msgid "Portfolio Page Title"
 msgstr ""
 
-#: inc/customizer.php:389
+#: inc/customizer.php:390
 msgid ""
 "<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for changing "
 "Portfolio title and description."
 msgstr ""
 
-#: inc/customizer.php:404
+#: inc/customizer.php:405
 msgid "Footer Settings"
 msgstr ""
 
-#: inc/customizer.php:425
+#: inc/customizer.php:426
 msgid "Enter footer text"
 msgstr ""
 
-#: inc/customizer.php:426
+#: inc/customizer.php:427
 msgid ""
 "<a href=\"%s\" target=\"_blank\">Upgrade to Toivo (Pro)</a> for hiding or "
 "changing Footer text."
@@ -563,12 +563,12 @@ msgctxt "weekly archives date format"
 msgid "W"
 msgstr ""
 
-#: inc/customizer.php:98
+#: inc/customizer.php:99
 msgctxt "position of callout text"
 msgid "Top"
 msgstr ""
 
-#: inc/customizer.php:100
+#: inc/customizer.php:101
 msgctxt "position of callout text"
 msgid "Bottom"
 msgstr ""
