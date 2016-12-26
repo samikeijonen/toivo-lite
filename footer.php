@@ -24,7 +24,7 @@
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'toivo-lite' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'toivo-lite' ), 'WordPress' ); ?></a>
 			<span class="sep"><?php echo _x( '&middot;', 'Separator in site info.', 'toivo-lite' ); ?></span>
-			<?php printf( __( 'Theme %1$s by %2$s', 'toivo-lite' ), 'Toivo Lite', '<a href="https://foxland.fi" rel="designer">Foxland</a>' ); ?>
+			<?php printf( __( 'Theme %1$s by %2$s', 'toivo-lite' ), 'Toivo Lite', '<a href="https://foxland.fi">Foxland</a>' ); ?>
 		</div><!-- .site-info -->
 		
 	</footer><!-- #colophon -->
