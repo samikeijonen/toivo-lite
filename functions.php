@@ -8,7 +8,7 @@
 /**
  * The current version of the theme.
  */
-define( 'TOIVO_LITE_VERSION', '1.1.1' );
+define( 'TOIVO_LITE_VERSION', '1.2.0' );
 
 /**
  * The suffix to use for scripts.
@@ -88,9 +88,13 @@ function toivo_lite_setup() {
 	add_theme_support( 'title-tag' );
 	
 	/* Add theme support for site logo. */
-	add_theme_support( 'site-logo', array(
-		'size' => 'toivo-site-logo',
-	) );
+	add_theme_support( 'custom-logo', apply_filters( 'toivo_lite_custom_logo_arguments', array(
+		'height' => 300,
+		'width'  => 300,
+	) ) );
+	
+	/* Add theme support for refresh widgets. */
+	add_theme_support( 'customize-selective-refresh-widgets' );
 
 	/* Add theme support for responsive videos. */
 	add_theme_support( 'jetpack-responsive-videos' );
