@@ -38,6 +38,7 @@ All other resources and theme elements are licensed under the [GNU GPL](http://w
 
 * Update using WordPress Custom Logo feature. Before logo was from Jetpack.
 * Update media grapper script.
+* Update theme tags.
 * Fix skip to content script.
 * Remove rel="designer" from the footer.
 * Add theme support for refresh widgets.
